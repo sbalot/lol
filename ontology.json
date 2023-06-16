@@ -1,0 +1,58 @@
+[ {
+  "@id" : "https://onto4all.com/en/ontologies/747/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "https://onto4all.com/en/ontologies/747/LinkAlgorithm",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://onto4all.com/en/ontologies/747/linkMetadata"
+  } ]
+}, {
+  "@id" : "https://onto4all.com/en/ontologies/747/Linktype",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://onto4all.com/en/ontologies/747/Thing"
+  } ]
+}, {
+  "@id" : "https://onto4all.com/en/ontologies/747/Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://onto4all.com/en/ontologies/747/linkMetadata"
+  } ]
+}, {
+  "@id" : "https://onto4all.com/en/ontologies/747/Thing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://onto4all.com/en/ontologies/747/createdBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://onto4all.com/en/ontologies/747/linkMetadata"
+  } ]
+}, {
+  "@id" : "https://onto4all.com/en/ontologies/747/createdOn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://onto4all.com/en/ontologies/747/linkMetadata"
+  } ]
+}, {
+  "@id" : "https://onto4all.com/en/ontologies/747/is_a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://onto4all.com/en/ontologies/747/linkConfidenceScore",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://onto4all.com/en/ontologies/747/linkMetadata"
+  } ]
+}, {
+  "@id" : "https://onto4all.com/en/ontologies/747/linkMetadata",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://onto4all.com/en/ontologies/747/Thing"
+  } ]
+}, {
+  "@id" : "https://onto4all.com/en/ontologies/747/linktype",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://onto4all.com/en/ontologies/747/Thing"
+  } ]
+} ]
